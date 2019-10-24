@@ -1,0 +1,22 @@
+
+
+.news{
+    padding: 50px 0;
+
+    h2{
+        font-size: 3.6rem;
+        line-height: 4.6rem;
+    }
+
+    .news-content-description{
+        line-height: 2.5rem;
+        height: 3*2.5rem;
+        overflow: hidden;
+    }
+}
+
+@media(min-width:768px){
+    .news{
+        padding: 100px 0 133px;
+    } 
+}
