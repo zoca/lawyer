@@ -8482,15 +8482,27 @@ header .navbar-nav a {
     color: #1E1E1E; }
     .our-team .our-team-member h5 a:hover {
       text-decoration: none; }
-  .our-team .our-team-member .team-member-position {
-    color: #1A77CD;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
-    font-weight: 500; }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   .our-team {
     padding: 64px 0 133px; } }
+.team-single {
+  padding: 50px 0; }
+  .team-single h1 {
+    font-size: 5rem; }
+  .team-single p {
+    font-size: 1.6rem;
+    line-height: 2.5rem; }
+
+@media (min-width: 992px) {
+  .team-single {
+    padding: 100px 0 150px; } }
+.team-member-position {
+  color: #1A77CD;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-weight: 500; }
+
 .info-section {
   background-color: #11284B;
   padding: 75px 0 69px; }

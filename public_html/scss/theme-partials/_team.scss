@@ -71,18 +71,40 @@
                 }
             }
         }
-
-        .team-member-position{
-            color: $primary;
-            font-size: 1.8rem;
-            line-height: 2.7rem;
-            font-weight: $font-weight-medium;
-        }
     }
 }
 
-@media(min-width:992){
+@media(min-width:992px){
     .our-team{
         padding: 64px 0 133px;
     }
+}
+
+// team single
+
+.team-single{
+    padding: 50px 0;
+
+    h1{
+        font-size: 5rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media(min-width:992px){
+    .team-single{
+        padding: 100px 0 150px;
+    }
+}
+
+
+.team-member-position{
+    color: $primary;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-weight: $font-weight-medium;
 }
